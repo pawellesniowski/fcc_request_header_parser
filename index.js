@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(useragent.express());
 
-app.get('/', (req, res, next)=>{
+app.get('/api/whoami', (req, res, next)=>{
     var lan = req.acceptsLanguages();
     // var soft = os.type() + "; " + parseInt(os.release()) + "; " + os.platform()+ "; " + os.arch();
     // var soft = req.get('user-agent');
@@ -25,6 +25,6 @@ app.get('/', (req, res, next)=>{
 });
 
 app.listen(port, function(){
-    console.log("app listening");
+    console.log("app is running on port "+port);
 });
 

@@ -1,12 +1,11 @@
 {
-  "name": "header_parser",
+  "name": "fcc_request_header_parser",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
-  "author": "",
+  "author": "pawellesniowski",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
@@ -14,5 +13,18 @@
     "express": "^4.15.4",
     "express-useragent": "^1.0.7",
     "useragent": "^2.2.1"
-  }
+  },
+  "engines": {
+    "node": "^8.1.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawellesniowski/fcc_request_header_parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pawellesniowski/fcc_request_header_parser/issues"
+  },
+  "homepage": "https://github.com/pawellesniowski/fcc_request_header_parser#readme",
+  "description": ""
 }
